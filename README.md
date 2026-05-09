@@ -14,6 +14,10 @@ tags:
 
 # Construx-RL
 
+[![Hackathon](https://img.shields.io/badge/Meta_PyTorch_OpenEnv_×_Scaler-Grand_Finale_2026-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://github.com/godlin1612/construx_rl)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Space-FFD21E?style=flat&logo=huggingface&logoColor=black)]()
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)]()
+
 Construx-RL is an OpenEnv reinforcement learning environment where an LLM acts as a construction site manager. The agent must deliver a building project across permits, material lead times, weather, OSHA safety rules, budget pressure, crew coordination, and subcontractor negotiation.
 
 The core failure mode we target is familiar: LLMs can produce confident plans that violate physical dependencies, ignore delayed approvals, miss safety constraints, or spend the budget into failure. Construx-RL turns those mistakes into deterministic environment feedback.
@@ -155,3 +159,13 @@ This repo is ready for Hugging Face Spaces with Docker:
 - `server/app.py`
 
 The Space exposes `/reset`, `/step`, `/state`, `/schema`, `/tasks`, `/health`, and `/healthz`.
+
+## Team — APX KAIRO
+
+| Name | GitHub |
+|---|---|
+| Govindavasan B | — |
+| Godlin Ashika | [godlin1612](https://github.com/godlin1612) |
+| Vishwa R K | — |
+
+Built for Meta PyTorch OpenEnv × Scaler Grand Finale, April 25–26 2026, Bangalore.
